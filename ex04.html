@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Fã Clube Louis Tomlinson</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+    <style>
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+        body {
+            background-color: #f0f4f8;
+            font-family: 'Poppins', Arial, sans-serif;
+            color: #333; line-height: 1.6;
+            min-height: 100vh; display: flex; flex-direction: column;
+        }
+        a { color: #457b9d; text-decoration: none; transition: color 0.3s ease; }
+        a:hover { color: #1d3557; }
+        header {
+            background: linear-gradient(135deg, #1d3557, #457b9d);
+            color: #fff; padding: 30px 20px;
+            border-radius: 0 0 20px 20px;
+            text-align: center; box-shadow: 0 4px 10px rgba(29, 53, 87, 0.3);
+        }
+        header h1 { font-weight: 700; font-size: 2.8rem; margin-bottom: 10px; }
+        nav {
+            background: #eaf1fb; padding: 15px 20px; border-radius: 12px;
+            max-width: 950px; margin: 20px auto;
+            box-shadow: 0 2px 8px rgba(69, 123, 157, 0.2);
+        }
+        nav ul { list-style: none; display: flex; justify-content: center; gap: 30px; flex-wrap: wrap; }
+        nav li { font-weight: 600; font-size: 1.1rem; }
+        main {
+            flex-grow: 1; max-width: 950px;
+            margin: 0 auto 40px; background: #fff;
+            padding: 30px 25px; border-radius: 15px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+        }
+        section { margin-bottom: 40px; }
+        section h2 {
+            font-size: 2rem; color: #1d3557; margin-bottom: 20px;
+            border-bottom: 3px solid #457b9d; padding-bottom: 8px;
+        }
+        article {
+            background: #f7fafc; padding: 20px 25px;
+            border-radius: 12px; box-shadow: 0 2px 8px rgba(69, 123, 157, 0.1);
+            margin-bottom: 20px;
+        }
+        article h3 { color: #1d3557; margin-bottom: 12px; }
+        article p { font-size: 1rem; }
+        ul { list-style: inside disc; font-size: 1rem; }
+        ul li { margin-bottom: 8px; }
+        img, video, iframe {
+            max-width: 100%; border-radius: 12px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.1); display: block;
+            margin: 20px auto;
+        }
+        footer {
+            background: #457b9d; color: #fff; text-align: center;
+            padding: 20px 15px; border-radius: 0 0 20px 20px;
+            font-weight: 500; font-size: 1rem;
+        }
+        input, textarea, button {
+            padding: 12px; border-radius: 8px; border: 1px solid #ccc; font-size: 1rem;
+        }
+        button {
+            background: #1d3557; color: #fff; border: none; cursor: pointer;
+            transition: background 0.3s;
+        }
+        button:hover { background: #457b9d; }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Fã Clube Louis Tomlinson</h1>
+        <p>Tudo sobre o cantor britânico que conquistou o mundo!</p>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#inicio">Início</a></li>
+            <li><a href="#biografia">Biografia</a></li>
+            <li><a href="#discografia">Discografia</a></li>
+            <li><a href="#shows">Shows</a></li>
+            <li><a href="#midia">Mídia</a></li>
+            <li><a href="#fans">Depoimentos</a></li>
+            <li><a href="#contato">Contato</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section id="inicio">
+            <h2>Bem-vindo ao Fã Clube!</h2>
+            <img src="https://i.pinimg.com/736x/ff/be/ee/ffbeeeecf9cbdf470a7225a068bad579.jpg" alt="Louis Tomlinson logo" style="height: 400px; width: 450px; object-fit: cover;" />
+        </section>
+
+        <section id="biografia">
+            <h2>Biografia</h2>
+            <article>
+                <h3>Carreira e Vida</h3>
+                <p>Louis Tomlinson é cantor, compositor e ex-integrante da boyband One Direction. Nascido em Doncaster, Inglaterra, ele conquistou milhões de fãs ao redor do mundo. Após o fim da banda, seguiu carreira solo, lançando músicas com letras cheias de emoção e influências do rock britânico.</p>
+            </article>
+            <article>
+                <h3>Curiosidades</h3>
+                <ul>
+                    <li>Amante do futebol, já jogou em times amadores.</li>
+                    <li>É conhecido por sua forte ligação com os fãs.</li>
+                    <li>Participa ativamente de causas sociais e beneficentes.</li>
+                </ul>
+            </article>
+        </section>
+
+        <section id="discografia">
+            <h2>Discografia</h2>
+            <article>
+                <h3>Álbuns</h3>
+                <ul>
+                    <li><b>Walls</b> (2020)</li>
+                    <li><b>Faith in the Future</b> (2022)</li>
+                </ul>
+            </article>
+            <article>
+                <h3>Principais Singles</h3>
+                <ul>
+                    <li>Just Hold On</li>
+                    <img src="https://i.pinimg.com/736x/e4/74/4e/e4744ee24074fabdb481449e19a2bcf9.jpg" alt="Capa Just Hold On" style="height: 280px; width: 280px; object-fit: cover; margin-left: 20px; align-self: flex-start;" />
+                    <li>Back to You</li>
+                    <img src="https://i.pinimg.com/1200x/da/55/e7/da55e77556283ebc5b15e6c52cb9968a.jpg" alt="Capa Back to You" style="height: 280px; width: 280px; object-fit: cover; margin-left: 20px; align-self: flex-start;" />
+                    <li>Kill My Mind</li>
+                    <img src="https://i.pinimg.com/1200x/a8/0c/cb/a80ccb1d8a3718deb22d66c83ffa5256.jpg" alt="Capa Kill My Mind" style="height: 280px; width: 280px; object-fit: cover; margin-left: 20px; align-self: flex-start;" />
+                    <li>Miss You</li>
+                    <img src="https://i.pinimg.com/1200x/f2/28/14/f22814c59ab4913bd28189ae32879e7b.jpg" alt="Capa Miss You" style="height: 280px; width: 280px; object-fit: cover; margin-left: 20px; align-self: flex-start;" />
+                    <li>Just Like You</li>
+                    <img src="https://i.pinimg.com/736x/53/38/7c/53387c5f0396955670dbfa94dddd9bb0.jpg" alt="Capa Just Like You" style="height: 280px; width: 280px; object-fit: cover; margin-left: 20px; align-self: flex-start;" />
+                </ul>
+            </article>
+        </section>
+
+        <section id="shows">
+            <h2>Shows e Turnês</h2>
+            <article>
+                <h3>Próximos Shows</h3>
+                <ul>
+                    <li>Away From Home Festival — Nova York, EUA <br><b>4 e 5 de outubro de 2025</b></li>
+                </ul>
+            </article>
+            <article>
+                <h3>Shows Passados</h3>
+                <ul>
+                    <li>Ejekt Festival — Atenas, Grécia <br><b>9 de julho de 2025</b></li>
+                    <li>ZOA City — Zurique, Suíça <br><b>11 de julho de 2025</b></li>
+                    <li>mBank Summer Festival — Łódź, Polônia <br><b>26 de julho de 2025</b></li>
+                </ul>
+            </article>
+        </section>
+
+        <section id="midia">
+            <h2>Mídia</h2>
+
+            <article>
+                <h3>GIF de Louis</h3>
+                <img src="https://i.pinimg.com/originals/29/cf/50/29cf501b570ec63dd19ceccd41eb379c.gif" alt="Louis Tomlinson gif" style="width: 380px;height: 280px;" />
+            </article>
+
+            <article>
+                <h3>Vídeo do YouTube</h3>
+                <iframe src="https://www.youtube.com/embed/9uQyP7kzK2M" allowfullscreen title="Louis Tomlinson - Walls"></iframe>
+            </article>
+
+            <article>
+                <h3>Vídeo Local</h3>
+                <video controls style= "width: 100%; max-width: 600px; height: auto; display: block; margin: 0 auto; border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.1);"">
+                    <source src="imagens/Louis Tomlinson - Out Of My System (Official Video) - Louis Tomlinson (720p, h264, youtube).mp4" type="video/mp4" />
+                    Seu navegador não suporta vídeo HTML5.
+                </video>
+            </article>
+
+            <article>
+                <h3>Galeria de Shows</h3>
+                <div style="display: flex; gap: 15px; flex-wrap: wrap; justify-content: center;">
+                    <img src="https://i.pinimg.com/1200x/3a/6f/52/3a6f52bbaa9287ccc7de47e22086d613.jpg" alt="Louis Tomlinson no palco" style="width: 380px; height: 280px; object-fit: cover; border-radius: 12px;" />
+                    <img src="https://i.pinimg.com/736x/89/b4/a8/89b4a83ecb2efd3b2cceedafb055679b.jpg" alt="Louis Tomlinson cantando" style="width: 380px; height: 280px; object-fit: cover; border-radius: 12px;" />
+                    <img src="https://i.pinimg.com/1200x/ff/63/dd/ff63dd86a5f989bc014b3473b8215942.jpg" alt="Fãs em show do Louis Tomlinson" style="width: 380px; height: 280px; object-fit: cover; border-radius: 12px;" />
+                </div>
+            </article>
+        </section>
+
+        <section id="fans">
+            <h2>Depoimentos dos Fãs</h2>
+            <article>
+                <p><i>"Louis mudou minha vida com sua música e humildade!"</i> – Ana</p>
+            </article>
+            <article>
+                <p><i>"Um artista incrível que valoriza seus fãs como ninguém."</i> – João</p>
+            </article>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Fã Clube Louis Tomlinson. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>

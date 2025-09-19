@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Tabela Cardápio</title>
+  <style>
+    table {
+      width: 60%;
+      border-collapse: collapse;
+      margin: 20px auto;
+      font-family: Arial, sans-serif;
+    }
+    caption {
+      font-size: 1.5em;
+      margin-bottom: 10px;
+      font-weight: bold;
+    }
+    th, td {
+      border: 1px solid #333;
+      padding: 8px;
+      text-align: center;
+    }
+    thead {
+      background-color: #41c0dd;
+    }
+    tfoot {
+      background-color: #eee;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+  <table>
+    <caption>Cardápio do Restaurante</caption>
+    
+    <thead>
+      <tr>
+        <th>Prato</th>
+        <th>Categoria</th>
+        <th>Preço</th>
+      </tr>
+    </thead>
+    
+    <tbody>
+      <tr>
+        <td>Lasanha à Bolonhesa</td>
+        <td>Massas</td>
+        <td>R$ 28,00</td>
+      </tr>
+      <tr>
+        <td>Frango Grelhado</td>
+        <td>Pratos Principais</td>
+        <td>R$ 25,00</td>
+      </tr>
+      <tr>
+        <td>Salada Caesar</td>
+        <td>Saladas</td>
+        <td>R$ 18,00</td>
+      </tr>
+      <tr>
+        <td>Mousse de Chocolate</td>
+        <td>Sobremesas</td>
+        <td>R$ 12,00</td>
+      </tr>
+    </tbody>
+    
+    <tfoot>
+      <tr>
+        <td colspan="2">Total de Itens</td>
+        <td>4</td>
+      </tr>
+    </tfoot>
+  </table>
+</body>
+</html>
