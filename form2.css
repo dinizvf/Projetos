@@ -1,0 +1,79 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+
+body {
+  background: linear-gradient(135deg, #74ABE2, #5563DE);
+  color: #333;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+h2 {
+  color: #fff;
+  margin-bottom: 20px;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+}
+
+form {
+  background: #fff;
+  padding: 30px 40px;
+  border-radius: 15px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+  width: 320px;
+}
+
+label {
+  font-weight: 500;
+  color: #333;
+}
+
+input[type="text"] {
+  width: 100%;
+  padding: 10px;
+  border: 2px solid #ccc;
+  border-radius: 8px;
+  outline: none;
+  font-size: 14px;
+}
+
+input[type="text"]:focus {
+  border-color: #5563DE;
+  box-shadow: 0 0 6px rgba(85, 99, 222, 0.4);
+}
+
+p {
+  font-weight: 500;
+  margin-top: 15px;
+  color: #444;
+}
+
+input[type="checkbox"] {
+  accent-color: #5563DE;
+  margin-right: 6px;
+}
+
+input[type="submit"] {
+  background: #5563DE;
+  color: #fff;
+  border: none;
+  padding: 12px;
+  border-radius: 8px;
+  font-size: 15px;
+  width: 100%;
+  cursor: pointer;
+  margin-top: 15px;
+}
+
+input[type="submit"]:hover {
+  background: #3e4bb3;
+}
+
